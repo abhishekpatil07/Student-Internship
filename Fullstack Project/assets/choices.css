@@ -1,0 +1,76 @@
+*{
+			font-family: sans-serif;
+		
+		}
+		h1{
+			text-align: center;
+			text-shadow: 10px;
+			color:#004000;
+
+		}
+
+		body{
+			background:radial-gradient(#ffff80,#80ff00);
+			background-size:cover;
+			background-attachment: fixed;
+	        height:auto;
+		}
+
+		fieldset{
+			/*background-color: #42433e;*/
+			text-align: center;
+			background-color: hsla(160,0%,0%,0.3);
+			width:30%;
+			height:auto;
+			margin:20px auto;
+			padding:25px;
+			box-shadow: -2px -2px 5px 2px pink;
+		}
+		button[type="submit"]{
+			display: block;
+			text-align:center;
+			background-color:#80ff00;
+			color:black;
+			width:40%;
+			padding:5px 10px 5px 10px;
+			margin:10px auto;
+			border-radius: 15px;
+			border:none;
+			cursor: pointer;
+			
+
+		}
+		input[type="text"]{
+			background-color: hsla(160,0%,0%,0);
+			display:block;
+			color:pink;
+			border:none;
+			width:70%;
+			border-bottom: 3px solid black;
+			padding:5px;
+			margin:10px auto;
+			outline:none;
+			
+		}
+
+		table,th,td{
+			background-color: hsla(160,0%,0%,0.2);
+			border:1px solid black;
+			border-collapse: collapse;
+			padding: 5px;
+		}
+		table{
+			width:50%;
+			margin:20px auto;
+			background-color: hsla(160,0%,0%,0.2);
+			box-shadow: 2px 2px 5px 3px #777777;
+		}
+		th{
+			text-transform: uppercase;
+			background-color: hsla(160,0%,0%,0.2);
+		}
+		td:hover{
+			color:yellow;
+			background-color: grey;
+			font-size: 20px;
+		}

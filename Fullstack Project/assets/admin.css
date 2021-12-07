@@ -1,0 +1,68 @@
+*{
+			font-family: sans-serif;
+		
+		}
+
+		body{
+			background:linear-gradient(#ffd5d5,#660000);
+			background-size:cover;
+			background-attachment: fixed;
+	        height:auto;
+		}
+
+		fieldset{
+			/*background-color: #42433e;*/
+			background-color: hsla(160,0%,0%,0.3);
+			width:30%;
+			margin:20px auto;
+			padding:15px;
+			box-shadow: -2px -2px 5px 2px pink;
+		}
+
+		legend{
+			background-color:black;
+			color:white;
+			text-align:center;
+			border:1px solid #c7cbd1;
+			border-radius: 15px;
+			padding:5px 20px 5px 20px;
+			
+		}
+		input[type="text"],input[type="password"]{
+			background-color: hsla(160,0%,0%,0);
+			display:block;
+			color:pink;
+			border:none;
+			width:70%;
+			border-bottom: 3px solid black;
+			padding:5px;
+			margin:10px;
+			outline:none;
+			
+		}
+		label{
+			padding:10px;
+			color:#460000;
+		}
+
+		button[type="submit"]{
+			display: block;
+			text-align:center;
+			background-color:#660000;
+			color:#ffd5d5;
+			width:40%;
+			padding:5px 10px 5px 10px;
+			margin:10px auto;
+			border-radius: 15px;
+			border:none;
+			cursor: pointer;
+			
+
+		}
+		a{
+			color:white;
+			text-decoration: none;
+		}
+		::-webkit-input-placeholder{
+			text-transform: uppercase;
+			color:black;}
